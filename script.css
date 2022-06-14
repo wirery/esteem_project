@@ -1,0 +1,623 @@
+    body{
+      background-color: #fff;
+      min-height: 100%;
+      max-width: 100%;
+      overflow-x:hidden
+
+    }
+    header {
+        width: 1440px;
+        height: 136px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 32px;
+        padding: 0 40px;
+        background-color: #fff;
+      }
+      li{
+          display:inline-block;
+      }
+      .mentorbutton {
+        width: 191px;
+        height: 59px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        padding: 20px;
+        border-radius: 9px;
+        background-color: #a79cc9;
+      }
+      
+      .donatebutton {
+        width: 191px;
+        height: 59px;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        padding: 20px;
+        border-radius: 9px;
+        background-color: #a79cc9;
+      }
+      .frame1 {
+        background-image: url(img/butterfly.jpg);
+        background-size: cover;
+        width: 1680px;
+        height: 1552px;
+        margin: 0 95px 32px 0;
+        font-family: SquarePeg;
+        font-size: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+        position: relative;
+        top: 130px;
+    }
+    .title1{
+    
+        position: absolute;
+        top: 400px;
+        width:100px;
+    }
+     .para1{
+        word-wrap: normal;
+        width: 370px;
+        height: 80px;
+        align-items: center;
+        position: absolute;
+        top: 790px;
+        }
+    .frame2{
+        width: 1680px;
+        height: 750px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 230px;
+        padding: 0;
+      ;
+    }
+    .title2{
+        position: absolute;
+        top: 400px;
+        width:100px;
+        flex-grow: 0;
+        font-family: Amethysta;
+        font-size: 36px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.25px;
+        text-align: left;
+        color: #202020;
+        margin: 0px;
+        top: 1950px;
+        right: 900px;
+    }
+    .para2{
+        width: 1260px;
+        height: 832px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 230px;
+        margin: 1275px 0 1347px 180px;
+        padding: 0;
+    }
+    .frame3{
+        width: 972px;
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  margin: 0 93px 88px 94px;
+  padding: 0;
+  background-color: #f8f8f8;
+
+    }
+    section{
+        position:relative;
+        flex-direction: row;
+        display:inline-block;
+    }
+    .frame4 {
+      width: 1440px;
+      padding: 92px 141px 88px 140px;
+      background-image: linear-gradient(to bottom, #fff 35%, #e3e3e3 100%);
+      display: flex;
+      flex-direction: row;
+    }
+    .stories{
+      width: 177px;
+      height: 25px;
+        }
+    .title5{
+      justify-items: center;
+      text-align: center;
+      top: 1000px;
+    }
+    .frame5{
+          background-image: url(img/girllaughing.jpg);
+          background-size: cover;
+          width: 1700px;
+          height: 850px;
+          margin: 0 95px 32px 0;
+          font-family: SquarePeg;
+          font-size: 30px;
+          color: #fff;
+          position: relative;
+          display: flex;
+          text-align: center;
+          vertical-align: middle;
+        }
+        .volunteer{
+  background-color: #d0c3fb;
+  width: 200px;
+  height: 69px;
+  border: solid 0 #000;
+  display: flex;
+  position:absolute;
+  top: 700px;
+  right: 750px;
+  align-items: center;
+  }
+  .frame7sec2{
+    justify-content: right;
+    text-align: left;
+    width: 200px;
+    left: 300px;
+    bottom: -200px;
+  }
+  .frame8sec1{
+    float: right;
+  }
+  .frame8sec2{
+    justify-content: left;
+    text-align: left;
+    width: 200px;
+    left: 300px;
+    bottom: -200px;
+  }
+  .quote{
+    margin:700px;
+    width: 1000px;
+    align-content: center;
+    justify-content: left;
+    right: 900px;
+  }
+  .frame9{
+  background-image: url(img/jessica-felicio-kgv0t4pI1T4-unsplash.jpg);
+  background-size: cover;
+  width: 1700px;
+  height: 1050px;
+  font-family: SquarePeg;
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  top:-700px;
+  }
+  .title7{
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    position:absolute;
+    top: 350px;
+    left: 800px;
+  }
+  .donationpara{
+    justify-items: center;
+    text-align: center;
+    top: 400px;
+    position: absolute;
+    margin-right: 40px;
+  }
+  .donbutton {
+    width: 191px;
+    height: 59px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 20px;
+    border-radius: 9px;
+    background-color: #a79cc9;
+    position:absolute;
+    top:600px;
+    left:800px;
+
+  }
+  .finalframe{
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    background:  #a69cc9;
+    position: absolute;
+    top: 7500px;
+    width: 1700px;
+    height: 500px;
+  }
+  .endtitle{
+    justify-content: center;
+    text-align: center;
+
+  }
+  .textbox{
+    height: 100px;
+    width: 200px;
+  }
+  
+  .finallist{
+    float: right;
+    display: inline-grid;
+    justify-content: right;
+    text-align: right;
+    list-style-position: inside ;
+    margin-right: 40px;
+  
+  }
+  .frame2_1{
+    width:1664px;
+    height: 600px;
+  }
+  .img2_1{
+    margin-top: -100px;
+    position: relative;
+  }
+  .title2_1{
+    position: relative;
+    text-align: center;  
+    width: 800px;
+    top: 200px;  
+  }
+  .para2_1{
+    position: relative;
+    text-align: center;
+    width: 800px;
+    top: 200px;
+  }
+  .frame2_2{
+    position: relative;
+  }
+  .title2_2{
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 500px;
+    text-align: center;
+  }
+  .title2_3{
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 1px;
+    text-align: center;
+  }
+  .para2_2{
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 500px;
+    text-align: center;
+  }
+  .frame2_3{
+    position: relative;
+    margin-left: 100px;
+  }
+  .serene{
+    margin-left: 500px;
+    align-items:center;
+    display: block;
+  }
+  .title2_4{
+    margin-left: 650px;
+
+  }
+  .list2_1{
+    display: block;
+    padding-top: 30px;
+    align-content: center;
+  }
+  .serenity{
+    border-radius: 145px;
+    border:solid 0 #000;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+  }
+.title2_5{
+  position: relative;
+  top: 200px;
+  left: 300px;
+}
+.para2_4{
+  position: relative;
+  top: 200px;
+  left: 300px;
+  width: 320px;
+  text-align: left;
+}
+.frame2_4{
+  margin-bottom: 1px;
+  bottom: 20px;
+}
+.fieldhugs{
+  width: 400px;
+  height: 700px;
+  margin-bottom: 3px;
+}
+.dobutton{
+  position: relative;
+  width: 155px;
+  height: 59px;
+  border-radius: 9px;
+  background-color: #a79cc9;
+  left: 300px;
+  top: 200px;
+
+}
+.frame2_5{
+  background-image: url(img/jessica-felicio-kgv0t4pI1T4-unsplash.jpg);
+  background-size: cover;
+  width: 1700px;
+  height: 1050px;
+  font-family: SquarePeg;
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+}
+.finalframe2{
+  margin-left: 1px;
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  background:  #a69cc9;
+  position: absolute;
+  top: 4230px;
+  width: 1700px;
+  height: 500px;
+}
+.endtitle2{
+  justify-content: center;
+  text-align: center;
+}
+
+.finallist2{
+  float: right;
+  display: inline-grid;
+  justify-content: right;
+  text-align: right;
+  list-style-position: inside ;
+  margin-right: 40px;
+}
+.frame3_1{
+
+    background-image: url(img/christina.jpg);
+    background-size: cover;
+    width: 1680px;
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: SquarePeg;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    position: relative;
+    top: -10px;
+    bottom: 100px;
+}
+.title3_1{
+  position:absolute;
+  top: 300px;
+  left:800px;
+}
+
+.para3_1{
+  position: relative;
+  text-align: center;
+  width: 800px;
+  left: 400px;
+}
+.title3_2{
+  position: relative;
+  left: 800px;
+}
+.title3_3{
+  position: relative;
+  left: 830px;
+}
+.para3_2{
+  position: relative;
+  float: right;
+  width: 300px;
+}
+.para3_3{
+  position: relative;
+  top:700px;
+  
+
+}
+.frame3_3{
+  position: relative;
+  height:1700px;
+  top: 800px;
+  left: 20px;
+}
+.title3_4{
+  width: 310px;
+  height: 153px;
+  margin-left: 300px;
+  margin-bottom:10px;
+  position: relative;
+  top: -40px;
+  font-family: Mulish;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  color: #000;
+}
+.para3_4{
+  width: 310px;
+  height: 153px;
+  margin-left: 300px;
+  font-family: Mulish;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: left;
+  color: #000;
+}
+.butterflybutton{
+  position: relative;
+  top: 400px;
+  left: -350px;
+  border-radius: 9px;
+  color: wheat;
+  background-color: #a79cc9;
+}
+.para3_5{
+  position:relative;
+  top: 500px;
+  left:-500px;
+}
+.para3_6{
+  position: relative;
+  top: 300px;
+  left:1000px;
+  width: 300px;
+}
+.frame3_4{
+  position:relative;
+  width:300px;
+  top: 300px;
+  left: 100px;
+}
+
+.para3_8{
+  position: relative;
+  left:900px;
+  bottom:200px;
+  width:500px;
+}
+.frame3_5{
+  position: relative;
+  top: 200px;
+}
+.title3_6{
+  position: relative;
+  left:600px;
+  margin-bottom: 50px;
+}
+.title3_7{
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+.para3_9{
+  position: relative;
+  left: 300px;
+  top: 100px;
+}
+.stories3{
+  left: 300px;
+  top: 100px;
+}
+.frame3_6{
+  height:100px;
+  width: 1700px;
+  margin-top: 100px;
+}
+.socialmedia{
+  position: relative;
+  top:800px;
+  left:80px;
+}
+.title3_8{
+  position: relative;
+  top: 800px;
+}
+.frame3_7{
+  height: 100px;
+  width: 1700px;
+  margin-top: 100px;
+  position: relative;
+  top:800px;
+  left: -500px;
+}
+.title3_9{
+  position: relative;
+  text-align: center;
+}
+.title3_10{
+  position: relative;
+  text-align: right;
+}
+.para3_10{
+  position: relative;
+  text-align: right;
+  left: 100px;
+}
+
+.para3_11{
+  position: relative;
+  text-align: center;
+  width: 1000px;
+  left: 800px;
+}
+.finalframe3{
+  height: 100px;
+  width: 1700px;
+  margin-top: 100px;
+  position: relative;
+  top:800px;
+  margin-left: 1px;
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  background:  #a69cc9;
+  position: absolute;
+  top: 5000px;
+  width: 1700px;
+  height: 500px;
+}
+.endtitle3{
+  justify-content: center;
+  text-align: center;
+}
+.finallist3{
+  float: right;
+  display: inline-grid;
+  justify-content: right;
+  text-align: right;
+  list-style-position: inside ;
+  margin-right: 40px;
+}
