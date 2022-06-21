@@ -701,3 +701,131 @@
   position: relative;
   top: 400px;
 }
+.frame4_4{
+  position: absolute;
+  top: 500px;
+  background-image: url(img/jessica-felicio-kgv0t4pI1T4-unsplash.jpg);
+  background-size: cover;
+  width: 1700px;
+  height: 1050px;
+  font-family: SquarePeg;
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.title4_5{
+  position: absolute;
+  left: 650px;
+}
+.page4section1{
+  background-image: url(img/kidsonstairs.jpg);
+  background-size: cover;
+  position: absolute;
+  width: 720px;
+  height: 1161px;
+  font-family: SquarePeg;
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  text-align: center;
+  float:right;
+  top: 500px;
+}
+.page4section2{
+  background-image: url(img/windowkids.jpg);
+  background-size: cover;
+  position: absolute;
+  width: 720px;
+  height: 565px;
+  font-family: SquarePeg;
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  background-position: center;
+  background-position-y: bottom;
+  display: flex;
+  float: left;
+  top: 500px;
+}
+.page4section3{
+  background-image: url(img/butterflyonwhite.jpg);
+  background-size: cover;
+  position: absolute;
+  width: 720px;
+  height: 565px;
+  font-family: SquarePeg;
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  background-position: center;
+  top: 520px;
+}
+.becomingButterfly{
+  width: 226px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 9px;
+  background-color: #a79cc9;
+  top: 1000px;
+  left: 250px;
+
+}
+.mentorchat{
+  width: 190px;
+  height: 40px;
+  position: relative;
+  flex-grow: 0;
+  font-family: Mulish;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.25px;
+  align-content: center;
+  text-align: left;
+  background-color: #a79cc9;
+  top: 400px;
+  left: 250px;
+}
+.finalframe4{
+  margin-top: 100px;
+  position: relative;
+  top:800px;
+  margin-left: 1px;
+  margin-top: 1px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  background:  #a69cc9;
+  position: absolute;
+  top: 6025px;
+  left:px;
+  width: 1900px;
+  height: 500px;
+  background-size: cover;
+
+}
+.endtitle4{
+  justify-content: center;
+  text-align: center;
+}
+.finallist4{
+  float: right;
+  display: inline-grid;
+  justify-content: right;
+  text-align: right;
+  list-style-position: inside ;
+  margin-right: 40px;
+}
